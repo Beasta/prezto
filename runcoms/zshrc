@@ -11,3 +11,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+# Add env.sh
+source ~/Projects/config/env.sh
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=2000
+SAVEHIST=2000
+bindkey -v
+# End of lines configured by zsh-newuser-install
