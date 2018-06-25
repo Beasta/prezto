@@ -27,6 +27,12 @@ zstyle ':prezto:*:*' color 'yes'
 # Set the Prezto modules to load (browse modules).
 # The order matters.
 zstyle ':prezto:load' pmodule \
+  'archive' \
+  'autosuggestions' \
+  'docker' \
+  'fasd' \
+  'node' \
+  'tmux' \
   'environment' \
   'terminal' \
   'editor' \
@@ -35,7 +41,13 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt'
+  'git' \
+  'syntax-highlighting' \
+  'history-substring-search' \
+  'prompt' \
+  'osx' \
+  'homebrew'
+
 
 #
 # Autosuggestions
@@ -57,7 +69,7 @@ zstyle ':prezto:load' pmodule \
 #
 
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':prezto:module:editor' key-bindings 'emacs'
+zstyle ':prezto:module:editor' key-bindings 'vi'
 
 # Auto convert .... to ../..
 # zstyle ':prezto:module:editor' dot-expansion 'yes'
